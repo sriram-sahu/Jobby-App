@@ -1,0 +1,76 @@
+.details-container {
+  display: flex;
+  padding: 30px;
+  background-color: #202020;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+.hr-line {
+  margin-top: 40px;
+}
+.employment-container {
+  color: #ffffff;
+}
+.list-container {
+  list-style-type: none;
+}
+.information-container {
+  padding: 20px;
+  width: 72%;
+  height: 100%;
+}
+.retry-button {
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 2px solid grey;
+  border-right: none;
+  height: 40px;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.search-button {
+  height: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 39px;
+  border: solid grey;
+  cursor: pointer;
+  border: 0;
+  margin-top: 2px;
+  background-color: #475569;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.loader-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-card-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

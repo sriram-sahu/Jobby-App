@@ -1,0 +1,15 @@
+.similar-job-card {
+  background-color: #202020;
+  color: #ffffff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  flex-shrink: inherit;
+}
+.company-name-details {
+  display: flex;
+}
+.similar-heading {
+  font-size: 30px;
+}
